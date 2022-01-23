@@ -1,5 +1,8 @@
 package goodExercise;
 
+/**
+ * Exercise_01.写出最后的输出结果。
+ */
 public class _01_InnerClassDemo {
     public static void main(String[] args) {
         Outer.Inner.Inner2 outer = new Outer().new Inner().new Inner2();
