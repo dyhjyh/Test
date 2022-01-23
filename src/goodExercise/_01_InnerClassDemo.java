@@ -1,6 +1,6 @@
-package Day1;
+package goodExercise;
 
-public class InnerClassDemo {
+public class _01_InnerClassDemo {
     public static void main(String[] args) {
         Outer.Inner.Inner2 outer = new Outer().new Inner().new Inner2();
         Outer2.Inner3.Inner4 outer2 = new Outer2.Inner3.Inner4();
