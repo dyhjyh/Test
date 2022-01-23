@@ -1,4 +1,4 @@
-package Day1._01知识回顾;
+package day1._01知识回顾;
 
 public class InterfaceDemo01 {
     public static void main(String[] args) {

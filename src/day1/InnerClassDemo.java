@@ -1,4 +1,4 @@
-package Day1;
+package day1;
 
 public class InnerClassDemo {
     public static void main(String[] args) {
@@ -8,12 +8,14 @@ public class InnerClassDemo {
 }
 
 class Outer {
+    private String name;
     class Inner {
         class Inner2 {
             static {
                 System.out.println(1);
             }
             {
+                System.out.println(name);
                 System.out.println(2);
             }
             public Inner2() {

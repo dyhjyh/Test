@@ -1,4 +1,4 @@
-package Day1._01知识回顾;
+package day1._01知识回顾;
 
 public class CodeDemo01 {
     {
