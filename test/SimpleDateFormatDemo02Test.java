@@ -13,7 +13,7 @@ public class SimpleDateFormatDemo02Test {
         SimpleDateFormatDemo02 sdf = new SimpleDateFormatDemo02();
         Random random = new Random();
         for (int i = 0; i < 1000; i++) {
-            int year = random.nextInt(10000);
+            int year = random.nextInt(8000) + 1999;
             int mouth = random.nextInt(12) + 1;
             int day = random.nextInt(28) + 1;
             int hour = random.nextInt(24) + 1;
