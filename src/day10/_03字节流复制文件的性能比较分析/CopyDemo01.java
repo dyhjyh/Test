@@ -8,7 +8,7 @@ public class CopyDemo01 {
     private static final String DEST_FILE = "F:\\学习\\";
     
     public static void main(String[] args) {
-        //copy01();   //普通字节流一个一个字节复制     >2小时
+        copy01();   //普通字节流一个一个字节复制     >2小时
         copy02();   //普通字节流按字节数组复制         =10.138s
         copy03();   //高级缓冲字节流一个一个字节复制    =40.049s
         copy04();   //高级缓冲字节流按字节数组复制      =1.945s

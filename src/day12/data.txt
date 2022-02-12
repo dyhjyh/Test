@@ -1,0 +1,26 @@
+========Student========
+id = 12110520
+name = DYH
+age = 18
+sex = 男
+address = 地球上
+tel = 8848
+========Pig========
+name = 佩奇
+weight = 500.0
+color = 粉色
+onwer = 猪妈妈
+sex = 雌
+========Student========
+id=12110520
+name=DYH
+age=18
+sex=男
+address=地球上
+tel=8848
+========Pig========
+name=佩奇
+weight=500.0
+color=粉色
+onwer=猪妈妈
+sex=雌
