@@ -13,10 +13,10 @@ public class ReflectDemo {
         scores.add(199.3);
         scores.add(89.5);
         
-        // 拓展：通过反射暴力地注入一个其他类型的数据进去
+        // 通过反射暴力地注入一个其他类型的数据进去
         Class<?> c = scores.getClass(); //获取的ArrayList的class对象
         Method add = c.getDeclaredMethod("add", Object.class);
-        add.invoke(scores, "波仔");
+        add.invoke(scores, "aaa");
     
         System.out.println(scores);
     }

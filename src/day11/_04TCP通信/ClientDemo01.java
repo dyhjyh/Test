@@ -10,7 +10,7 @@ public class ClientDemo01 {
     public static void main(String[] args) throws IOException {
         System.out.println("---客户端启动---");
         
-        Socket socket = new Socket("117.183.38.227", 8888);
+        Socket socket = new Socket("127.0.0.1", 8888);
         
         OutputStream os = socket.getOutputStream();
         PrintStream ps = new PrintStream(os);
